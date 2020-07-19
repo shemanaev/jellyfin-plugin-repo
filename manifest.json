@@ -1,0 +1,38 @@
+[
+    {
+        "guid": "ef35f6b1-7fe6-44ca-a215-232089fb9bc7",
+        "name": "MyShows",
+        "description": "Scrobble your watched shows with MyShows.me.\n",
+        "overview": "Scrobble your watched shows with MyShows.me",
+        "owner": "shemanaev",
+        "category": "General",
+        "versions": [
+            {
+                "version": "3.0.0.1",
+                "changelog": "Updated for 10.6\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-myshows/releases/download/v3.0.0.1/myshows_3.0.0.1.zip",
+                "checksum": "9d48799769da765ab432c0c54e1b54ac",
+                "timestamp": "2020-07-19T13:01:11Z"
+            }
+        ]
+    },
+    {
+        "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+        "name": "Webhooks",
+        "description": "Supports couple of webhook types including Plex one.\n",
+        "overview": "Webhooks. Flexible and robust",
+        "owner": "shemanaev",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.0.0.1",
+                "changelog": "Updated for 10.6\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v1.0.0.1/webhooks_1.0.0.1.zip",
+                "checksum": "ec3c2297916eb7044adcd6cd919e0bfc",
+                "timestamp": "2020-07-19T13:01:36Z"
+            }
+        ]
+    }
+]
