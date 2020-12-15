@@ -34,6 +34,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "1.0.0.3",
+                "changelog": "Fixed Live TV handling.\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v1.0.0.3/Webhooks.zip",
+                "checksum": "7660b83630847aca31a50ac821a4a72e",
+                "timestamp": "2020-12-15T10:16:29Z"
+            },
+            {
                 "version": "1.0.0.2",
                 "changelog": "Updated for 10.6. Again.\n",
                 "targetAbi": "10.6.0.0",
