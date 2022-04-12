@@ -116,6 +116,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "2.1.0.0",
+                "changelog": "Add locations exclusion Add Video type support (used in Photos libraries)\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.1.0.0/media-cleaner_2.1.0.0.zip",
+                "checksum": "44ee9455df2d451c08dcfb581f70e579",
+                "timestamp": "2022-04-12T14:26:56Z"
+            },
+            {
                 "version": "2.0.0.0",
                 "changelog": "Update for 10.8 compatibility\n",
                 "targetAbi": "10.8.0.0",
