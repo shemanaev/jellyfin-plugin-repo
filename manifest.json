@@ -58,6 +58,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "3.1.0.0",
+                "changelog": "Add new event types\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.1.0.0/webhooks_3.1.0.0.zip",
+                "checksum": "a2c46c9603612a3230ee923c5abb3519",
+                "timestamp": "2022-05-22T11:49:23Z"
+            },
+            {
                 "version": "3.0.0.0",
                 "changelog": "Update for 10.8 compatibility\n",
                 "targetAbi": "10.8.0.0",
