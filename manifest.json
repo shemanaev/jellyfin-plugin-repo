@@ -58,6 +58,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "3.2.0.0",
+                "changelog": "Fix playback events firing multiple times\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.2.0.0/webhooks_3.2.0.0.zip",
+                "checksum": "0c7e851d48f753bb4dcb71427c9a825b",
+                "timestamp": "2022-05-23T16:24:54Z"
+            },
+            {
                 "version": "3.1.0.0",
                 "changelog": "Add new event types\n",
                 "targetAbi": "10.8.0.0",
