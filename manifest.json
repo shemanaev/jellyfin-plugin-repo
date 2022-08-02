@@ -135,6 +135,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.3.0.0",
+                "changelog": "Fix series virtual episodes messing with detection\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.3.0.0/media-cleaner_2.3.0.0.zip",
+                "checksum": "1131ebe0111294d8289aa293b6b7cb39",
+                "timestamp": "2022-08-02T10:02:05Z"
+            },
+            {
                 "version": "2.2.0.0",
                 "changelog": "Add locations inclusion\n",
                 "targetAbi": "10.8.0.0",
