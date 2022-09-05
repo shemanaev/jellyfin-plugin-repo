@@ -135,6 +135,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.3.1.0",
+                "changelog": "Fix tabs navigation in JMP\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.3.1.0/media-cleaner_2.3.1.0.zip",
+                "checksum": "1af4f70888a403b3a3fe1e4e9087b3ac",
+                "timestamp": "2022-09-05T07:56:25Z"
+            },
+            {
                 "version": "2.3.0.0",
                 "changelog": "Fix series virtual episodes messing with detection\n",
                 "targetAbi": "10.8.0.0",
