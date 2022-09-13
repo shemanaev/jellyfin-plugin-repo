@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "log-symbols": "^5.1.0"
+  }
+}
