@@ -143,6 +143,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.5.2.0",
+                "changelog": "Fix NPE on deletion\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.5.2.0/media-cleaner_2.5.2.0.zip",
+                "checksum": "134f56267fe07bf66765b6b5ce7cc5a0",
+                "timestamp": "2022-12-12T18:55:50Z"
+            },
+            {
                 "version": "2.5.1.0",
                 "changelog": "Some fixes in troubleshooting section\n",
                 "targetAbi": "10.8.0.0",
