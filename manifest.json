@@ -143,6 +143,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.6.0.0",
+                "changelog": "Add \"mark as unplayed\" Add html rendered log view\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.6.0.0/media-cleaner_2.6.0.0.zip",
+                "checksum": "20435b4a022004436c4dd3949dfaf0c7",
+                "timestamp": "2022-12-13T07:08:01Z"
+            },
+            {
                 "version": "2.5.2.0",
                 "changelog": "Fix NPE on deletion\n",
                 "targetAbi": "10.8.0.0",
