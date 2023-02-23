@@ -143,6 +143,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.6.1.0",
+                "changelog": "Add PlayedDate log Fix NPE\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.6.1.0/media-cleaner_2.6.1.0.zip",
+                "checksum": "1efd30bacc2302bcdb0431348eb6d1e4",
+                "timestamp": "2023-02-23T18:12:50Z"
+            },
+            {
                 "version": "2.6.0.0",
                 "changelog": "Add \"mark as unplayed\" Add html rendered log view\n",
                 "targetAbi": "10.8.0.0",
