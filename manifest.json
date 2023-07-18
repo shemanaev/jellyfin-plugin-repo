@@ -60,6 +60,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/webhooks.png",
         "versions": [
             {
+                "version": "3.4.0.0",
+                "changelog": "Add optional series field for episode events\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.4.0.0/webhooks_3.4.0.0.zip",
+                "checksum": "cc738b2689e6e37d5ee00ca34c990ea1",
+                "timestamp": "2023-07-18T08:07:36Z"
+            },
+            {
                 "version": "3.3.0.0",
                 "changelog": "Fix NPE when DLNA session starts\n",
                 "targetAbi": "10.8.0.0",
