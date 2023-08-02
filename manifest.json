@@ -60,6 +60,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/webhooks.png",
         "versions": [
             {
+                "version": "3.6.0.0",
+                "changelog": "Add playback progress event Add workaround for players that doesn't send stop event\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.6.0.0/webhooks_3.6.0.0.zip",
+                "checksum": "43738397ce738d64a7c7ec611b1c09d2",
+                "timestamp": "2023-08-02T16:57:48Z"
+            },
+            {
                 "version": "3.5.0.0",
                 "changelog": "Add session playstate to payload\n",
                 "targetAbi": "10.8.0.0",
