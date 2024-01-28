@@ -60,6 +60,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/webhooks.png",
         "versions": [
             {
+                "version": "3.6.2.0",
+                "changelog": "Fix user filtering\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.6.2.0/webhooks_3.6.2.0.zip",
+                "checksum": "363d77475c9daee51de2a14d1ed42414",
+                "timestamp": "2024-01-28T19:24:10Z"
+            },
+            {
                 "version": "3.6.1.0",
                 "changelog": "Fix NPE in library events\n",
                 "targetAbi": "10.8.0.0",
