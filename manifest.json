@@ -183,6 +183,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.11.0.0",
+                "changelog": "Ignore plays that happened before the item was added\n",
+                "targetAbi": "10.8.11.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.11.0.0/media-cleaner_2.11.0.0.zip",
+                "checksum": "394880350246a85c965a5bc5f8a7916b",
+                "timestamp": "2024-02-04T07:17:25Z"
+            },
+            {
                 "version": "2.10.0.0",
                 "changelog": "Add exception for ytdl-sub when deleting series\n",
                 "targetAbi": "10.8.11.0",
