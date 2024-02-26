@@ -183,6 +183,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.14.0.0",
+                "changelog": "Use UTC time for comparison in expiry filters Use local time in displayed dates\n",
+                "targetAbi": "10.8.11.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.14.0.0/media-cleaner_2.14.0.0.zip",
+                "checksum": "52b956edb40c6d661c8e1ec2479f9e75",
+                "timestamp": "2024-02-26T06:40:05Z"
+            },
+            {
                 "version": "2.13.0.0",
                 "changelog": "Fix not played cleanup\n",
                 "targetAbi": "10.8.11.0",
