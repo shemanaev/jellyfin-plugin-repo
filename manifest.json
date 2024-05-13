@@ -199,6 +199,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.16.0.0",
+                "changelog": "10.9 compatibility\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.16.0.0/media-cleaner_2.16.0.0.zip",
+                "checksum": "8bceb65c4b0e454a64b2df7b4ecc1cb1",
+                "timestamp": "2024-05-13T17:06:23Z"
+            },
+            {
                 "version": "2.15.0.0",
                 "changelog": "Fix delete not played behaviour\n",
                 "targetAbi": "10.8.11.0",
