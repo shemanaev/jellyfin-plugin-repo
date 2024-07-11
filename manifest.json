@@ -199,6 +199,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.17.0.0",
+                "changelog": "Check creation date for unwatched items\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.17.0.0/media-cleaner_2.17.0.0.zip",
+                "checksum": "61ea3fba8beaf26ac561df0e5a930414",
+                "timestamp": "2024-07-11T19:02:06Z"
+            },
+            {
                 "version": "2.16.0.0",
                 "changelog": "10.9 compatibility\n",
                 "targetAbi": "10.9.0.0",
