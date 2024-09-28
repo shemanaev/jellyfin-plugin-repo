@@ -199,6 +199,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.18.0.0",
+                "changelog": "New option to ignore old plays\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.18.0.0/media-cleaner_2.18.0.0.zip",
+                "checksum": "17147fe9b9ce93323b4d62dfbac42124",
+                "timestamp": "2024-09-28T17:31:13Z"
+            },
+            {
                 "version": "2.17.0.0",
                 "changelog": "Check creation date for unwatched items\n",
                 "targetAbi": "10.9.0.0",
