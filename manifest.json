@@ -199,6 +199,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.19.0.0",
+                "changelog": "Add log level switch to troubleshooting tab\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.19.0.0/media-cleaner_2.19.0.0.zip",
+                "checksum": "434ef4cef09dc63b703063b63a9081ae",
+                "timestamp": "2024-11-10T12:02:00Z"
+            },
+            {
                 "version": "2.18.0.0",
                 "changelog": "New option to ignore old plays\n",
                 "targetAbi": "10.9.0.0",
