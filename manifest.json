@@ -207,6 +207,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.20.0.0",
+                "changelog": "Old plays should be checked first (NicolaSmaniotto) Add option to allow deletion of items played before being added (luigidotmoe)\n",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.20.0.0/media-cleaner_2.20.0.0.zip",
+                "checksum": "361f276beb4ed78bfecf2f5228c418e2",
+                "timestamp": "2025-05-25T18:13:08Z"
+            },
+            {
                 "version": "2.19.0.0",
                 "changelog": "Add log level switch to troubleshooting tab\n",
                 "targetAbi": "10.9.0.0",
