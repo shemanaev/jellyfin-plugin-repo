@@ -68,6 +68,14 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/webhooks.png",
         "versions": [
             {
+                "version": "3.9.0.0",
+                "changelog": "Jellyfin 10.11 compatibility\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.9.0.0/webhooks_3.9.0.0.zip",
+                "checksum": "258fbb50e380ad5a51a8f5cdcb6921d4",
+                "timestamp": "2025-10-19T10:28:24Z"
+            },
+            {
                 "version": "3.8.0.0",
                 "changelog": "Jellyfin 10.10 compatibility\n",
                 "targetAbi": "10.10.3.0",
