@@ -215,6 +215,30 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "2.24.0.101109",
+                "changelog": "- Add jellyfin compatibility layer\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.11.9.zip",
+                "checksum": "f8e27dbb1bcb9b93f4489c9bf6d0d91c",
+                "timestamp": "2026-06-21T18:27:16Z"
+            },
+            {
+                "version": "2.24.0.101100",
+                "changelog": "- Add jellyfin compatibility layer\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.11.0.zip",
+                "checksum": "4be53296e30420e307301e412f9b4131",
+                "timestamp": "2026-06-21T18:27:23Z"
+            },
+            {
+                "version": "2.24.0.101007",
+                "changelog": "- Add jellyfin compatibility layer\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.10.7.zip",
+                "checksum": "26d425dedae9bf00f4026b680f6d06b4",
+                "timestamp": "2026-06-21T18:27:09Z"
+            },
+            {
                 "version": "2.24.0.0",
                 "changelog": "Add the ability to keep the first/last episode/season of the show\n",
                 "targetAbi": "10.11.3.0",
