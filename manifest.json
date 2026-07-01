@@ -215,6 +215,30 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "3.0.0.101109",
+                "changelog": "- 3.0 rewrite\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.0.0.0/MediaCleaner-10.11.9.zip",
+                "checksum": "83c70aae4d8feb36f9f637868976987a",
+                "timestamp": "2026-07-01T17:35:44Z"
+            },
+            {
+                "version": "3.0.0.101100",
+                "changelog": "- 3.0 rewrite\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.0.0.0/MediaCleaner-10.11.0.zip",
+                "checksum": "d748f729c63276764583b394d7d730ad",
+                "timestamp": "2026-07-01T17:35:55Z"
+            },
+            {
+                "version": "3.0.0.101007",
+                "changelog": "- 3.0 rewrite\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.0.0.0/MediaCleaner-10.10.7.zip",
+                "checksum": "bf00be59cdd92c5831145d80f6802bb0",
+                "timestamp": "2026-07-01T17:35:44Z"
+            },
+            {
                 "version": "2.27.0.101109",
                 "changelog": "- Fix ci versioning\n",
                 "targetAbi": "10.11.9.0",
