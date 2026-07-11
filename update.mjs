@@ -5,11 +5,19 @@ import logSymbols from 'log-symbols'
 
 async function getFromGhApi(repo, what) {
   const url = `https://api.github.com/repos/${repo}/${what}`
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+  }
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`
+  }
   const response = await fetch(url, {
-    headers: {
-      'Accept': 'application/vnd.github+json'
-    },
+    headers,
   })
+  if (!response.ok) {
+    throw new Error(`GitHub API request failed for ${repo}/${what}: ${response.status} ${response.statusText}`)
+  }
   return await response.json()
 }
 
@@ -41,15 +49,15 @@ for (const repo in repos) {
   const guid = repos[repo]
   const plugin = manifest.find(x => x.guid === guid)
   if (plugin === undefined) {
-    console.warn(logSymbols.error, `Pluging ${guid} not found in manifest`)
-    break
+    console.warn(logSymbols.error, `Plugin ${guid} not found in manifest`)
+    continue
   }
 
   const oldestVersion = plugin.versions
     .reduce((prev, current) => (prev.timestamp < current.timestamp) ? prev : current)
     .timestamp
 
-  const releases = await getFromGhApi(repo, 'releases')
+  const releases = await getFromGhApi(repo, 'releases?per_page=100')
   for (const release of releases) {
     const tag = release.tag_name.replace(/^v/, '')
 

@@ -1,0 +1,48 @@
+name: Update plugin manifest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+concurrency:
+  group: update-plugin-manifest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update manifest
+        run: npm run update
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Commit manifest changes
+        run: |-
+          if git diff --quiet -- manifest.json; then
+            echo "Manifest is already up to date"
+            exit 0
+          fi
+
+          # Official GitHub Actions bot identity documented by GitHub.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "chore: update plugin manifest"
+          git push
