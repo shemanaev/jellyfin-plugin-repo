@@ -215,6 +215,30 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "3.2.0.101109",
+                "changelog": "- Add release script - Postpone notifications after actual delete - Clarify episodes exception and make sure it covered with tests\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.2.0/MediaCleaner-10.11.9.zip",
+                "checksum": "765cbb16756bad5c0f5fda654e02ba5c",
+                "timestamp": "2026-07-13T17:56:05Z"
+            },
+            {
+                "version": "3.2.0.101100",
+                "changelog": "- Add release script - Postpone notifications after actual delete - Clarify episodes exception and make sure it covered with tests\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.2.0/MediaCleaner-10.11.0.zip",
+                "checksum": "c4d7e3e72f4e291648c916f14821b62e",
+                "timestamp": "2026-07-13T17:56:03Z"
+            },
+            {
+                "version": "3.2.0.101007",
+                "changelog": "- Add release script - Postpone notifications after actual delete - Clarify episodes exception and make sure it covered with tests\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.2.0/MediaCleaner-10.10.7.zip",
+                "checksum": "5658c3a0861f0049c4bcbb1bd77a8d03",
+                "timestamp": "2026-07-13T17:56:12Z"
+            },
+            {
                 "version": "3.1.0.101109",
                 "changelog": "- Clarify readme - Add series cache instead of full library scan for any episode (#109)\n",
                 "targetAbi": "10.11.9.0",
