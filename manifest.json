@@ -215,6 +215,38 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "3.4.0.120000",
+                "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-12.0.zip",
+                "checksum": "5d2e14843689686fbe73bde27165fdc0",
+                "timestamp": "2026-09-19T11:54:17Z"
+            },
+            {
+                "version": "3.4.0.101109",
+                "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.11.9.zip",
+                "checksum": "abc56d999ff95145d44ea0c59831f977",
+                "timestamp": "2026-09-19T11:54:25Z"
+            },
+            {
+                "version": "3.4.0.101100",
+                "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.11.0.zip",
+                "checksum": "64de9929b0564a234265dedcd482c77f",
+                "timestamp": "2026-09-19T11:54:21Z"
+            },
+            {
+                "version": "3.4.0.101007",
+                "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.10.7.zip",
+                "checksum": "fe8e98891b33ef0f6951aa3766d5433e",
+                "timestamp": "2026-09-19T11:54:17Z"
+            },
+            {
                 "version": "3.2.0.101109",
                 "changelog": "- Add release script - Postpone notifications after actual delete - Clarify episodes exception and make sure it covered with tests\n",
                 "targetAbi": "10.11.9.0",
