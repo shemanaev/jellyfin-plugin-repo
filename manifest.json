@@ -231,6 +231,38 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "3.5.0.120000",
+                "changelog": "- Add layered web script injection for Leaving Soon\n",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.5.0/MediaCleaner-12.0.zip",
+                "checksum": "48692610e2916002f5124a22fc6df3d6",
+                "timestamp": "2026-09-21T17:20:25Z"
+            },
+            {
+                "version": "3.5.0.101109",
+                "changelog": "- Add layered web script injection for Leaving Soon\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.5.0/MediaCleaner-10.11.9.zip",
+                "checksum": "f35b8ce342f7b91fc003462e9fabf304",
+                "timestamp": "2026-09-21T17:20:36Z"
+            },
+            {
+                "version": "3.5.0.101100",
+                "changelog": "- Add layered web script injection for Leaving Soon\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.5.0/MediaCleaner-10.11.0.zip",
+                "checksum": "d3b352fb51b0d09233ad6616c983065f",
+                "timestamp": "2026-09-21T17:20:41Z"
+            },
+            {
+                "version": "3.5.0.101007",
+                "changelog": "- Add layered web script injection for Leaving Soon\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.5.0/MediaCleaner-10.10.7.zip",
+                "checksum": "8b2715dc7ad9177d72b3304c75de7c40",
+                "timestamp": "2026-09-21T17:20:38Z"
+            },
+            {
                 "version": "3.4.0.120000",
                 "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
                 "targetAbi": "12.0.0.0",
