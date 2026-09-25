@@ -231,6 +231,38 @@
         "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/media-cleaner.png",
         "versions": [
             {
+                "version": "3.6.0.120000",
+                "changelog": "- Fix Leaving Soon sync on Jellyfin 12 when the collection has seasons - test: cover linked season membership in Leaving Soon publisher - chore: bump plugin base version to 3.6.0\n",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.6.0/MediaCleaner-12.0.zip",
+                "checksum": "ab184abf1d1f8e25978111617a329a74",
+                "timestamp": "2026-09-25T16:55:03Z"
+            },
+            {
+                "version": "3.6.0.101109",
+                "changelog": "- Fix Leaving Soon sync on Jellyfin 12 when the collection has seasons - test: cover linked season membership in Leaving Soon publisher - chore: bump plugin base version to 3.6.0\n",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.6.0/MediaCleaner-10.11.9.zip",
+                "checksum": "f1c00f88e16b7408059420f4c1e63f16",
+                "timestamp": "2026-09-25T16:54:59Z"
+            },
+            {
+                "version": "3.6.0.101100",
+                "changelog": "- Fix Leaving Soon sync on Jellyfin 12 when the collection has seasons - test: cover linked season membership in Leaving Soon publisher - chore: bump plugin base version to 3.6.0\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.6.0/MediaCleaner-10.11.0.zip",
+                "checksum": "a19675263daceac9e1fd90c809e49193",
+                "timestamp": "2026-09-25T16:55:01Z"
+            },
+            {
+                "version": "3.6.0.101007",
+                "changelog": "- Fix Leaving Soon sync on Jellyfin 12 when the collection has seasons - test: cover linked season membership in Leaving Soon publisher - chore: bump plugin base version to 3.6.0\n",
+                "targetAbi": "10.10.7.0",
+                "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.6.0/MediaCleaner-10.10.7.zip",
+                "checksum": "6b1592dc25c5afc31962389133d400dc",
+                "timestamp": "2026-09-25T16:55:03Z"
+            },
+            {
                 "version": "3.5.0.120000",
                 "changelog": "- Add layered web script injection for Leaving Soon\n",
                 "targetAbi": "12.0.0.0",
